@@ -20,18 +20,10 @@ It also shows results using **ASCII charts** for easy visualization.
 
 ## 🧠 Reflection
 > Building this project helped me explore how coding can solve real sustainability problems.  
-> It strengthened my problem-solving and system design skills while deepening my curiosity about computational sustainability — a field Cornell strongly promotes.
+> It strengthened my problem-solving and system design skills while deepening my curiosity about computational sustainability.
 
 ## 📊 System Diagram
-       ┌────────────────────────────┐
-       │   ClimateTechInnovator     │
-       │  (Main Controller)         │
-       └─────────────┬──────────────┘
-                     │
-  ┌──────────────────┼──────────────────┐
-  │                  │                  │
-  ▼                  ▼                  ▼
-+---------------+     +-------------+     +-------------+
+ +---------------+     +-------------+     +-------------+
 | EnergySource  |     | Vehicle     |     | Policy      |
 |---------------|     |-------------|     |-------------|
 | cost/unit     |     | emission/km |     | reduction%  |
@@ -51,8 +43,8 @@ It also shows results using **ASCII charts** for easy visualization.
                      | Sorts sources  |
                      | Applies budget |
                      | Minimizes CO₂  |
-
-
+                     +----------------+
+                     
 ## 🪪 License
 This project is licensed under the **MIT License** — feel free to use and modify it for educational purposes.
 
